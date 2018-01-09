@@ -1,7 +1,7 @@
 # Working with RESTFul APIs in Python
 
 [Slides](https://littlepea.github.io/python-rest-api-talk/) and code for the "Working with RESTFul APIs in Python" talk 
-at the [Beijing Python Meetup](https://www.meetup.com/Beijing-Python/events/tbd/).
+at the [Beijing Python Meetup](https://www.meetup.com/Beijing-Python/events/pmtxglyxcblb/).
 
 ## Talk Description
 
@@ -37,10 +37,10 @@ virtualenv env
 pip install -r requirements.txt
 ```
 
-### Run the code
+### Run the API
 
 ```
-python tbd...
+hug -f jobs/api.py
 ```
 
 ### Run the Jupyter notebook
