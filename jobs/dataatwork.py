@@ -6,8 +6,7 @@ from .entities import Skill
 def skill_score(skill):
     importance = skill['importance'] * 2
     level = skill['level']
-    score = importance * 0.4 + level * 0.6
-    return score
+    return importance * 0.4 + level * 0.6
 
 
 class DataAtWorkAPIAdapter:
